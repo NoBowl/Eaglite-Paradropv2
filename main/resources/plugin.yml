@@ -1,0 +1,46 @@
+name: Eaglite Paradrop
+main: com.eaglerparadrop.EaglerParadrop
+version: 1.0
+api-version: 1.8-1.21
+description: A plugin to manage paradrops in Minecraft. Created by NoBowl.
+commands:
+  paradrop:
+    description: Initiate a paradrop
+    usage: /paradrop [particle] [block]
+    aliases: [p, edit, container, setparticle, setheight, loottable, save, load, gui, editcrate, help, reload, randomdrop]
+  paradrop edit:
+    description: Edit paradrop settings
+    usage: /paradrop edit
+  paradrop container toggle:
+    description: Toggle between chests and barrels
+    usage: /paradrop container toggle
+  paradrop setparticle:
+    description: Set the particle type for the paradrop!
+    usage: /paradrop setparticle <particle>
+  paradrop setheight:
+    description: Set the drop height for paradrop
+    usage: /paradrop setheight <height>
+  paradrop loottable:
+    description: Edit the loot table for paradrop
+    usage: /paradrop loottable
+  paradrop save:
+    description: Save the current paradrop state
+    usage: /paradrop save <name>
+  paradrop load:
+    description: Load a saved paradrop state
+    usage: /paradrop load <name>
+  paradrop gui:
+    description: Open a GUI to access all saved paradrop states
+    usage: /paradrop gui
+  paradrop editcrate:
+    description: Open the in-game crate editor
+    usage: /paradrop editcrate
+  paradrop help:
+    description: Display the help menu
+    usage: /paradrop help
+  paradrop reload:
+    description: Reload the plugin configuration
+    usage: /paradrop reload
+  paradrop randomdrop:
+    description: Drop a paradrop at a random location
+    usage: /paradrop randomdrop
